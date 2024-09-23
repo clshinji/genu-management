@@ -137,10 +137,10 @@ def main():
     df = df.dropna(subset='メールアドレス')
     df = df.filter(['メールアドレス', '初期パスワード'])    # 余計な情報があった場合は、フィルタリングする
 
-    # Cognito��ー�プールID
+    # Cognito ユーザプールID
     USER_POOL_ID = "XXXXXXXXXXXXXXXXXXXXXXX"
 
-    # ��ー�と初期パス��ードをまとめたデー�フレー�
+    # ユーザ名と初期パスワードをまとめたデータフレーム
     df = pd.read_csv("users.csv")
 
     create_cognito_users(USER_POOL_ID, df)
