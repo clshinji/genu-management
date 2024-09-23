@@ -6,6 +6,4 @@
 1. [Cognito 認証済みユーザを一撃作成する](cognito_create_users)
 
 # その他
-もし気になる事例・要望等ありましたら、以下の連絡先まで
-
-問い合わせ先： [しんじ(clshinji)](clshinji@gmail.com)
+もし気になる事例・要望等ありましたら、 Issue の作成をお願いいたします。<br />【作成者：しんじ(clshinji)】
